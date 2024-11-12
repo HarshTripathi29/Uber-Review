@@ -29,6 +29,7 @@ public class Review extends BaseModel{
     @Column(nullable=false)
     private String content;
 
+    @Column(columnDefinition = "DOUBLE")
     private Double rating;
 
     @Override
