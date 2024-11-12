@@ -1,10 +1,8 @@
 package com.example.UberReview.services;
-
 import com.example.UberReview.models.Review;
 import com.example.UberReview.repositories.ReviewRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
-
 import java.util.Date;
 
 @Service
