@@ -17,8 +17,8 @@ import java.util.Date;
 @AllArgsConstructor
 // to enable the lifecycle events of JPA entity
 @EntityListeners(AuditingEntityListener.class)
-@Entity
 // create a table with this name if its not present already
+@Entity
 @Table(name="bookingreview")
 // If we already have the @entity then why we are using @table ??
 // table is working on the db end only.
